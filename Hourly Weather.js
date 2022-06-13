@@ -806,8 +806,15 @@ let success = (gpsLocation) => {
 
 
 function error(err) {
-    if (err) {
-        location.href = './403Respond.html';
+     if (err) {
+
+        alert('Location Access Is Necessary For better User Experience')
+
+        setTimeout(() => {
+
+            location.href = './403Respond.html';
+
+        }, 5000);
     }
 }
 
