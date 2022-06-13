@@ -892,7 +892,7 @@ let success = (gpsLocation) => {
 function error(err) {
     if (err) {
 
-        alert('Location Access Is Necessary For better User Experience')
+        alert('Location Access Is Necessary For a better User Experience')
 
         setTimeout(() => {
 
