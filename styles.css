@@ -120,6 +120,8 @@ ul li a:hover {
 
 .Images {
     text-align: center;
+    pointer-events: none;
+    
 }
 
 
