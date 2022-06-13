@@ -30,7 +30,6 @@ let currentTimeZone = document.getElementsByClassName('currentTimeZone')[0];
 
 menuIcon.addEventListener('click', e => {
 
-    console.log(e)
     let abc = document.getElementsByTagName('ul')[0];
     let def = document.getElementsByTagName('ul')[0];
     abc.classList.toggle('fuck')
@@ -119,12 +118,6 @@ let success = (gpsLocation) => {
         return respond.json();
     }).then(data => {
 
-
-
-
-
-
-        console.log(data)
             // timeZone ForEach Start
         cardTimeZone.forEach((array) => {
                 array.innerHTML = data.timezone
