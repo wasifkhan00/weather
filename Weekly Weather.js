@@ -30,7 +30,6 @@ let currentTimeZone = document.getElementsByClassName('currentTimeZone')[0];
 
 menuIcon.addEventListener('click', e => {
 
-    console.log(e)
     let abc = document.getElementsByTagName('ul')[0];
     let def = document.getElementsByTagName('ul')[0];
     abc.classList.toggle('fuck')
@@ -107,8 +106,6 @@ let success = (gpsLocation) => {
     fetch(weatherApiAccess).then(respond => {
         return respond.json();
     }).then(data => {
-
-        // console.log(data.daily[0])
 
         // timeZone ForEach Start
         cardTimeZone.forEach((array) => {
@@ -405,12 +402,10 @@ let success = (gpsLocation) => {
             })
             // WIND FOREach END
 
-        console.log(data.daily[6].clouds)
 
 
         // CLOUDS ForEach Start
 
-        // console.log(data.daily[6].clouds)
         cardClouds.forEach((clouds) => {
 
             if (clouds.innerHTML === '20 %') {
