@@ -85,6 +85,7 @@ ul li a:hover {
 /*Section  Main Weather Container Start */
 
 .todayWeather img {
+    pointer-events: none;
     width: 200px;
     text-align: center;
 }
@@ -403,6 +404,7 @@ footer {
     }
     .bigElements {
         flex-direction: column;
+        pointer-events: none;
         margin-top: 2rem;
     }
     .todayWeather img {
