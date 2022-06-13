@@ -324,10 +324,10 @@ ul li a:hover {
     font-size: 1.5rem;
 }
 
-.details h2,
+/* .details h2,
 p {
     font-family: cursive;
-}
+} */
 
 .cardsContainer .smallerElements {
     overflow: hidden;
