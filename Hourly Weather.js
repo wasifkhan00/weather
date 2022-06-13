@@ -93,7 +93,10 @@ topToBottomScroller.addEventListener('click', (e) => {
 })
 
 
-let userAgent = navigator.userAgent;
+let 
+
+
+Agent = navigator.userAgent;
 let browserName;
 
 if (userAgent.match(/firefox|fxios/i)) {
@@ -808,7 +811,7 @@ let success = (gpsLocation) => {
 function error(err) {
      if (err) {
 
-        alert('Location Access Is Necessary For better User Experience')
+        alert('Location Access Is Necessary For a better User Experience')
 
         setTimeout(() => {
 
