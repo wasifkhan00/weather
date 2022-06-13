@@ -217,6 +217,7 @@ pointer-events: none;
 
 .weatherIcon img {
     width: 100px;
+    pointer-events: none;
 }
 
 .weatherIcon p {
@@ -242,6 +243,10 @@ pointer-events: none;
 
 #mee {
     padding: 10px 0;
+}
+
+#mee img{
+pointer-events: none;
 }
 
 .bigElementsIcon {
