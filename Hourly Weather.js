@@ -93,10 +93,10 @@ topToBottomScroller.addEventListener('click', (e) => {
 })
 
 
-let 
+ 
 
 
-Agent = navigator.userAgent;
+let userAgent = navigator.userAgent;
 let browserName;
 
 if (userAgent.match(/firefox|fxios/i)) {
