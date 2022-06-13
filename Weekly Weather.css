@@ -313,11 +313,11 @@ ul li a:hover {
     font-size: 1.5rem;
 }
 
-.details h2,
+/* .details h2,
 p {
     font-family: cursive;
 }
-
+ */
 #scrollTop {
     width: 40px;
     text-align: center;
