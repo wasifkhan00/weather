@@ -330,6 +330,8 @@ p {
 
 .cardsContainer .smallerElements {
     overflow: hidden;
+    height: 100px;
+}
 }
 
 .cardsContainer .forImages {
