@@ -291,11 +291,11 @@ ul li a:hover {
     background-color: rgb(12, 145, 189);
 }
 
-.details h2,
+/* .details h2,
 p {
     font-family: cursive;
 }
-
+ */
 footer {
     margin-top: 3rem;
     background-color: rgb(25, 24, 24);
