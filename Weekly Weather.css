@@ -110,6 +110,7 @@ ul li a:hover {
 /*Section  Main Weather Container Start */
 
 .todayWeather img {
+pointer-events: none;
     width: 200px;
     text-align: center;
 }
@@ -138,12 +139,17 @@ ul li a:hover {
 
 .bigElements {
     display: flex;
+    pointer-events: none;
     margin-top: 60px;
     justify-content: space-around;
 }
 
 .Images {
     text-align: center;
+}
+
+.Images img{
+pointer-events: none;
 }
 
 
