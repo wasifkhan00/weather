@@ -186,7 +186,14 @@ function success(pos) {
 
 function error(err) {
     if (err) {
-        location.href = './403Respond.html';
+
+        alert('Location Access Is Necessary For better User Experience')
+
+        setTimeout(() => {
+
+            location.href = './403Respond.html';
+
+        }, 5000);
     }
 }
 
