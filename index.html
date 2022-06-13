@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./imgs/cldss.png">
+
+
+    <title>Weather Prediction</title>
+</head>
+
+<body>
+    <!-- time zone and time must -->
+    <main id="mainContainer">
+
+        <header class="header">
+
+            <h2 class="timeZone">Current Time Zone</h2>
+
+            <ul>
+                <li id="listHome" id="homePage"><a href="./index.html"> Home</a></li>
+                <li class="listHome" id="hourlyWeather"><a href="./Hourly Weather.html"> Hourly Weather</a></li>
+                <li class="listHome"><a href="./Weekly Weather.html"> Weekly Weather</a></li>
+            </ul>
+
+
+            <h3 class="cTime">Current Time</h3>
+
+            <a id="arrow">&#8595</a>
+
+            <a id="hamburger">&#9776;</a>
+
+        </header>
+
+        <!-- DRPDOWN -->
+        <select name="" id="dropdown">
+
+            <option disabled selected value>Select Your Location</option>
+            <option value="New York, NY">New York, NY</option>
+            <option value="Washington DC">Washington DC</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="boston">Boston</option>
+
+        </select>
+        <!-- DRPDOWN -->
+
+        <section class="mainWeather">
+
+            <div class="todayWeather">
+                <img src="./imgs/mnn.png" id="currentWeatherUpdate" alt="">
+                <p id="weatherDescription">Stormy</p>
+            </div>
+
+        </section>
+
+        <!-- Start section2 -->
+        <section id="weatherDetails">
+
+            <div class="bigElements">
+
+                <div class="Images">
+                    <img src="./imgs/air.png" class="bigElementsIcon" id="rotation" alt="">
+                    <p id="wind"> 1 m/s</p>
+                </div>
+
+                <div class="Images">
+                    <img src="./imgs/humidity.png" class="bigElementsIcon" id="tilt" alt="">
+                    <p id="humidity"> 10 %</p>
+                </div>
+
+                <div class="Images">
+                    <img src="./imgs/thermogauge.png" class="bigElementsIcon" id="tilt" alt="">
+                    <p id="clouds"> 25°</p>
+                </div>
+
+                <div class="Images">
+                    <img src="./imgs/sun.png" class="bigElementsIcon" id="rotation" alt="">
+                    <p id="ultraViolet"> 10 UV</p>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- end Section 2 -->
+        <footer class="838">
+            <a id="scrollTop">&#8593
+            </a>
+
+            <div class="rowOne">
+
+                <div class="logoContainer">
+                    <img src="./imgs/signature (1).png" alt="">
+                </div>
+
+                <div class="footerContact">
+                    <p>
+                        <a href="https://twitter.com/RemingtonBrant2" target="_blank"><img src="./imgs/twitter.png " alt=""></a>
+                    </p>
+                    <p>
+                        <a href="https://www.facebook.com/hell.ionare/" target="_blank"><img src="./imgs/fb.png " alt=""></a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/ludacris_lunaism/" target="_blank"><img src="./imgs/instagram.png" alt=""></a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/wasifkhan00" target="_blank"><img src="./imgs/github.png" alt=""></a>
+                    </p>
+
+                    <p>
+                        <a href="https://www.linkedin.com/in/ukhanwasif/" target="_blank"><img src="./imgs/linkedin.png" alt=""></a>
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="detailsContainer">
+                <div class="details">
+                    <h2>About Us</h2>
+                    <p id="fontSizer">Wasif is a React frontend <br />Developer. He has an experience
+                        <br />of one year in web development.
+                    </p>
+                </div>
+
+                <div class="details">
+                    <h2>Developer</h2>
+                    <p id="fontSizer">If you have any query <br /> Please shoot an email <br /> or visit Linkedin Inc.
+                    </p>
+                </div>
+
+                <div class="details">
+                    <h2>Contact Us</h2>
+                    <p id="fontSizer">ukhanwasif@gmail.com</p>
+                    <p id="fontSizer">+923099193493</p>
+
+                </div>
+            </div>
+
+            <div class="rowTwo">
+                <p id="fontSizer">&copy; 2022 All rights Reserved</p>
+                <p id="fontSizer">Developed By Wasif Khan</p>
+            </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
