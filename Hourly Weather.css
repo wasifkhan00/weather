@@ -93,6 +93,8 @@ body {
 
 .todayWeather img {
     width: 200px;
+   pointer-events: none;
+
     text-align: center;
 }
 
@@ -128,6 +130,9 @@ body {
     text-align: center;
 }
 
+.Images img{
+pointer-events: none;
+}
 
 /* Section Current Weather bottom End big Square*/
 
