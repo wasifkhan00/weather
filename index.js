@@ -10,7 +10,6 @@ let dropDown = document.getElementById('dropdown');
 // hamburger menu for media query
 
 menuIcon.addEventListener('click', e => {
-    console.log(e)
 
     let abc = document.getElementsByTagName('ul')[0];
     let def = document.getElementsByTagName('ul')[0];
