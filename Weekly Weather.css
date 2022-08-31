@@ -437,6 +437,49 @@ p {
     }
 }
 
+
+
+@media screen and (max-width:900px) {
+
+
+    .rowOne {
+        text-align: center;
+        align-items: center;
+    }
+    footer {
+        background-color: rgb(41, 41, 41);
+    }
+     .details {
+        font-size: .4rem;
+        width: 34%;
+        text-align: center;
+    } 
+
+    .details p {
+         font-size: .8rem !important;
+    }
+
+}
+
+
+@media screen and (max-width:740px) {
+    .rowOne {
+        flex-direction: column;
+    }
+
+    .details{
+        width: 100%;
+    }
+
+    .details p{
+        font-size: 1rem !important;
+    }
+}
+
+
+
+
+
 @media screen and (max-width:780px) {
     .header .fuck {
         display: flex;
@@ -459,17 +502,7 @@ p {
     #hamburger {
         display: flex;
     }
-    .rowOne {
-        text-align: center;
-        align-items: center;
-    }
-    footer {
-        background-color: rgb(41, 41, 41);
-    }
-    .details {
-        width: 100%;
-        text-align: center;
-    }
+   
     .detailsContainer {
         flex-direction: column;
         align-items: center;
@@ -477,9 +510,7 @@ p {
 }
 
 @media screen and (max-width:638px) {
-    .rowOne {
-        flex-direction: column;
-    }
+    
     #scrollTop {
         display: none;
     }
