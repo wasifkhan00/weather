@@ -105,6 +105,8 @@ let currentWeatherImage = document.getElementById('currentWeatherUpdate');
 // Images loader according to weather;
 // Weather Api Request Start
 
+
+// API KEYS ARE EXPOSED ON PURPOSE
 let API_KEY = '4f1b461e613bbd7d3b12a2255daf8413';
 
 // var options = {
