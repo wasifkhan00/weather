@@ -1,3 +1,4 @@
+// API KEYS ARE EXPOSED ON PURPOSE
 let API_KEY = '4f1b461e613bbd7d3b12a2255daf8413';
 let cardTimeZone = document.querySelectorAll('#timeZone'); //=>CARDS TIMEZONE
 let cardsTime = document.querySelectorAll('.cardsDay'); //CARDS TIME
